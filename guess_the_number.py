@@ -34,5 +34,5 @@ def main():
             print("AI guessed correctly! The number was:", guess)
             break
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
