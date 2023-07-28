@@ -84,6 +84,7 @@ def main():
 
     while num_guesses < max_guesses:
         guess = generate_guess(lower_bound, upper_bound)
+        #new guess count variable
         guess_count += 1
         print("AI's guess:", guess)
         user_response = get_user_feedback()
@@ -95,7 +96,8 @@ def main():
             lower_bound = guess + 1
         else:  # user_response == "C"
             print("AI guessed correctly! The number was:", guess)
-             print("AI took", guess_count, "guesses to get the correct answer.")
+            #he number of guesses the AI has made.
+            print("AI took", guess_count, "guesses to get the correct answer.")
             break
     else:
         print("Sorry, the AI could not guess the correct number within the given number of guesses.")
