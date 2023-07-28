@@ -12,6 +12,9 @@ def get_user_feedback():
     return user_response
 
 def main():
+    lower_bound = 1  
+    upper_bound = 100  
+
     print("Welcome to Guess the Number - AI Edition!")
     print("Think of a number between", lower_bound, "and", upper_bound)
     time.sleep(2)  # Pause for 2 seconds
@@ -34,5 +37,5 @@ def main():
             print("AI guessed correctly! The number was:", guess)
             break
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
