@@ -83,5 +83,7 @@ Run the script using the command:
 - **Guess Limit**: We've also added a means in which users can define the number of Guesses to make the game a bit fun and challenging.
 
 ### Contribution:
+# Added a new variable to track the number of guesses the AI has made.
+guess_count
 
 - Explain what you're working on by adding an issue before making any changes.
